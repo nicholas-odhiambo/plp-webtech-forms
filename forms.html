@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <p> Fill in the sections below: </p>
+    <form action="" method="get">      
+        <fieldset>
+            <legend> Personal Info: </legend>  
+            <label> Name:  <input type="text" name="Name" placeholder="name" required="required"></label> <br />
+            <label> D.O.B: <input type=" date" name="Name" placeholder=" Date of Birth" required="required"></label> <br />
+            <label> Gender: </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label> <br />
+        </fieldset>
+
+        <fieldset>
+            <legend> Contact Info: </legend>
+            <label> Address: <input type="text" name="address" placeholder="Address" required="required"></label> <br />
+            <label> Tel: <input type="text" name="tel" placeholder=" +08755" required="required"></label> <br />
+            <label> Email: <input type="email" name="email" placeholder="Email" required="required"></label> <br />
+        </fieldset>
+
+        <fieldset>
+            <legend> Select Your Course: </legend>
+            <label> Course: </label>
+                <select name="course" id="course">
+                    <option value="sydney">Web Technologies</option>
+                    <option value="melbourne">Python Programming</option>
+                    <option value="cromwell"> Database Management</option>
+                </select> <br/>
+        </fieldset>  
+        <button type="submit" name="submit" value="submit">Register</button>
+        <button type="submit" name="submit" value="submit"> Cancel </button>
+
+
+    </form>
+    
+</body>
+</html>
+
